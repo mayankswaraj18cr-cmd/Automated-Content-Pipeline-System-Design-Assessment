@@ -1,0 +1,17 @@
+{
+  "name": "godstockss-blogger-automation",
+  "version": "1.0.0",
+  "description": "Automated AI content generator and Blogger publisher",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "get-token": "node src/scripts/getRefreshToken.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0",
+    "mongoose": "^8.8.0",
+    "node-cron": "^3.0.3"
+  }
+}
